@@ -15,9 +15,11 @@ public class Patient {
     }
     public String getCondition() {
         return condition;
-    }public String getGender() {
+    }
+    public String getGender() {
         return gender;
-    }public String getName() {
+    }
+    public String getName() {
         return name;
     }
     public void setAge(int age) {   //set the instances
@@ -28,7 +30,8 @@ public class Patient {
     }
     public void setGender(String gender) {
         this.gender = gender;
-    }public void setName(String name) {
+    }
+    public void setName(String name) {
         this.name = name;
     }
 }
